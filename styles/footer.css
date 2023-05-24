@@ -1,0 +1,6 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  margin: 10px auto;
+}

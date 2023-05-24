@@ -1,0 +1,64 @@
+aside {
+  transform: translateY(-25px);
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  float: left;
+  height: 450px;
+  width: 24%;
+}
+
+.aside-pic {
+  height: 100%;
+  width: 100%;
+  border-radius: 125px;
+}
+
+.aside-names {
+  margin-bottom: 15px;
+}
+
+.aside-names h1 {
+  color: #e6edf3;
+  font-size: 24px;
+  margin: 0;
+}
+
+.aside-names h2 {
+  margin: 0;
+  color: #7d8590;
+  font-size: 20px;
+  font-weight: var(--base-text-weight-light, 300);
+}
+
+.aside-button {
+  height: 70px;
+  border-bottom: 1px solid #484848;
+  padding-bottom: 20px;
+}
+
+.edit-button {
+  width: 100%;
+  padding: 3px 12px;
+  background-color: #21262d;
+  border-color: rgba(240, 246, 252, 0.1);
+  border-radius: 5px;
+  color: #c9d1d9;
+}
+
+.org-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+}
+
+.misc h1 {
+  color: #e6edf3;
+  font-size: 16px;
+}
+
+.misc h2 {
+  color: #7d8590;
+  font-size: 12px;
+  font-weight: var(--base-text-weight-light, 300);
+}
