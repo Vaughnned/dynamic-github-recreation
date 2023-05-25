@@ -28,11 +28,16 @@ header {
   width: 10px;
 }
 
-#logo {
+#repo {
+  border-bottom: 2px solid rgb(249, 129, 86);
+}
+
+.logo {
   border-radius: 50px;
   height: 25px;
   width: 25px;
   margin-right: 10px;
+  margin-top: 3px;
 }
 
 .header-left {
@@ -42,14 +47,14 @@ header {
   height: 100%;
   width: fit-content;
   float: left;
-  margin: 12px 15px 5px 25px;
+  margin: 10px 15px 5px 25px;
 }
 
 .header-left nav {
   font-weight: var(--base-text-weight-semibold, 600);
   font-size: 14px;
-  margin-top: 5px;
-  margin-right: 10px;
+  margin-top: 7px;
+  margin-left: 10px;
 }
 
 .header-right {
@@ -78,6 +83,8 @@ header {
 .search {
   border-color: rgba(240, 246, 252, 0.1);
   background: none;
+  border-radius: 5px;
+  padding: 5px;
   width: 300px;
 }
 
@@ -85,4 +92,21 @@ header {
   height: 20px;
   width: 20px;
   border-radius: 25px;
+}
+
+.header-arrow svg {
+  height: 20px;
+  width: 15px;
+}
+
+#plus-sign-arrow {
+  position: relative;
+  right: 10%;
+  width: 15px;
+}
+
+#bell {
+  position: relative;
+  top: 8%;
+  margin-right: 5px;
 }

@@ -4,3 +4,19 @@ footer {
   width: 65%;
   margin: 10px auto;
 }
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  color: #2f81f7;
+  font-size: 12px;
+  margin: 20px 10px;
+}
+
+.nav-list li {
+  font-size: 12px;
+}
+
+#logo2 {
+  margin-top: 13px;
+}

@@ -155,17 +155,16 @@ a {
 
 #search-bar {
   height: 35px;
+  padding-bottom: 8px;
 }
 
 #search-bar input {
   float: left;
+  border-radius: 5px;
+  padding: 5px;
   /* width: 50%; */
 }
 
 .name-button {
   margin-left: 10px;
-}
-
-#repo {
-  border-bottom: 2px solid rgb(249, 129, 86);
 }
