@@ -203,7 +203,8 @@
         <section class="github-repositories">
           <!-- list of repositories -->
           <ul class="repository-list">
-            <div id="search-bar" class="repositories">
+            <template id="repo-title">
+              <!-- <div id="search-bar" class="repositories">
               <form class="list-form">
                 <input
                   class="search"
@@ -253,21 +254,21 @@
                 </svg>
               </button>
               <button class="search-button name-button">Type</button>
-            </div>
+            </div> -->
             <div id="repo-container" class="repositories">
-              <template id="repo-title">
-              <li>
-                <script >
+
+              <li class="repository-name">
+                <script>
                   document.write(repos.push(obj.name));
                   document.write("<br>");
                   let repos = [];
                   document.write("The array is defined as :", repos);
                 </script>
                 <!-- <div id="repo-title" class="title-div"> -->
-                  <!-- <a>vertical-timeline</a>
+                <!-- <a>vertical-timeline</a>
                   <p class="public">Public</p> -->
-                </div>
-                <div class="status-div">
+                <!-- </div> -->
+                <!-- <div class="status-div">
                   <p class="status">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Red_Circle%28small%29.svg/800px-Red_Circle%28small%29.svg.png"
@@ -304,8 +305,10 @@
                   ></path>
                 </svg>
                 Star
-              </button>
-            </template>
+              </button> -->
+              </li>
+              </template>
+
             </div>
           </ul>
           <!-- <template id="repo-title">
