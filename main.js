@@ -1,13 +1,11 @@
-// const renderRepos = () => {
-//   const container = document.querySelector("#repos-list");
-//   repos.forEach((repo) => {
-//     let listRepo = document
-//       .querySelector("#repo-title")
-//       .content.cloneNode(true);
-//     listRepo.appendChild(document.createTextNode(repo));
-//     container.appendChild(listRepo);
-//   });
-// };
+const renderRepos = () => {
+  const container = document.querySelector("#repos-list");
+  repos.forEach((repo) => {
+    let listRepo = document.getElementById("repoList");
+    listRepo.appendChild(document.createTextNode(repo));
+  });
+  // console.log(listRepo);
+};
 
 const getResources = async () => {
   const request = await fetch(
@@ -18,7 +16,7 @@ const getResources = async () => {
     repos.push(obj.name);
   });
   console.log(response);
-  // renderRepos();
+  renderRepos();
 };
 
 let repos = [];
