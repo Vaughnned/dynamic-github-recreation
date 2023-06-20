@@ -154,6 +154,21 @@ a {
   width: 100%;
 }
 
+#repoList li {
+  list-style: none;
+}
+
+li h3 {
+  width: 50%;
+  margin: 20px 0px;
+  float: left;
+}
+
+#repoList {
+  display: flex;
+  flex-direction: column;
+}
+
 #repos-list {
   display: inline-block;
   padding: 0;
